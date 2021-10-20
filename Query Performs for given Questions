@@ -11,7 +11,11 @@ SELECT COUNT(*)
 FROM salespeople INNER JOIN orders on salespeople.Snum = orders.Snum WHERE Amt > 2000;
 
 Question No - 3
-
+SELECT 
+    COUNT(*)
+FROM
+   salespeople
+WHERE city = 'NewYork';
 
 Question No - 4
 SELECT *
