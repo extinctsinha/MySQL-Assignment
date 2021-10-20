@@ -26,4 +26,7 @@ WHERE City =
      WHERE city= 'London' AND 'Paris');
 
 Question No - 5
-SELECT salespeople.Sname, orders.Odate FROM salespeople INNER JOIN orders ON salespeople.Snum = orders.Snum;
+SELECT salespeople.Sname, 
+orders.Odate 
+FROM salespeople 
+INNER JOIN orders ON salespeople.Snum = orders.Snum;
